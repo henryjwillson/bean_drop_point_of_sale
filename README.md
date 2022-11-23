@@ -13,11 +13,22 @@ This unit is running on a varient of Debian Linux. The hardware involved is a cu
 - Admin staff user account setup and removal. This provides each staff member with a unique account linked to all orders / actions.
 - Printing Thermal Receipts for customer orders. Receipts can be printed for old orders using the historical orders table.
 - Connection to SSL database in Google Cloud to process customer orders and point of sale attachment actions.
+- Encrypted new user account generation.
+- Localised database for backups.
+- Historic order table
+- Refund processing
+- Hardware status and database connection monitoring
 - Hardware and sotware restart.
 
 ## Python Libraries used
 - Pillow
 - 
+
+# Hidden Code and Functions
+As a commercial product, a number of code sections have been removed to protect Bean Drop Ltd's product. The hidden sections are listed below along with links to operational demos of the hidden sections functionality.
+- Thermal Printer Receipt Printing
+- Encryption and new user account generation
+- Hardware status and database connection monitoring
 
 *Note: The Bean Drop 'Point of Sale Attachment' is not a True Point of Sale as it does not process any payments directly (card or cash), however it succurely updates user accounts in the Bean Drop database which contain 'cup deposits' 
 Bean Drop Point of Sale attachment software. Interactive GUI for café staff interacting with; rfid scanner, qr-code scanner, google cloud mysql database, thermal printer
