@@ -29,6 +29,7 @@ As a commercial product, a number of code sections have been removed to protect 
 - Thermal Printer Receipt Printing
 - Encryption and new user account generation
 - Hardware status and database connection monitoring
+- Admin_functions.py has a significant number of functions removed as part of commercial security as they access the Bean Drop production database.
 
 *Note: The Bean Drop 'Point of Sale Attachment' is not a True Point of Sale as it does not process any payments directly (card or cash), however it succurely updates user accounts in the Bean Drop database which contain 'cup deposits' 
 Bean Drop Point of Sale attachment software. Interactive GUI for café staff interacting with; rfid scanner, qr-code scanner, google cloud mysql database, thermal printer
