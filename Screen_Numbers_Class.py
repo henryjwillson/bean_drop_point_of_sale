@@ -63,10 +63,3 @@ class screen_numbers:
         self.cups_in_user_account = 0
         self.Washes_in_user_account = 0
         self.local_order_id = local_order_number
-        
-
-
-# mainscreen = screen_numbers(0, "henry willson", 0, 0, "", 0, 0, 0, 0, 0)
-# print(mainscreen.cups_in_user_account)
-# print("£",format((mainscreen.Beandrop_payment_value),'.2f'))
-# print(mainscreen.Beandrop_payment_value)

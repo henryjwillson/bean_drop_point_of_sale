@@ -38,14 +38,3 @@ def text_auto(Frame_sizing_class,size):
 	text_auto_value = math.floor(Frame_sizing_class.auto_text_scale_factor * int(size))
 	return text_auto_value
 	
-
-# main_frame_size = Frame_Sizing(1024,600)
-
-# print(main_frame_size.row_size_8)
-# print(main_frame_size.column_size_10)
-# print(main_frame_size.height_scale_factor_from_original)
-# print(main_frame_size.width_scale_factor_from_original)
-# print(main_frame_size.height_scale_factor_from_original)
-# print(main_frame_size.auto_text_scale_factor)
-# print(main_frame_size.auto_text_scale_factor*40)
-# print(text_auto(main_frame_size,40))
