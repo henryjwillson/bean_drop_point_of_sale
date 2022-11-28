@@ -21,15 +21,33 @@ This unit is running on a varient of Debian Linux. The hardware involved is a cu
 - Hardware and sotware restart.
 
 ## Python Libraries used
-- Pillow
-- 
+- PIL
+- tkinter
+- time
+- math
+- multiprocessing
+- RPi.GPIO
+- subprocess
+- os 
+- traceback 
+- _thread
+- queue
+- sqlite3
+- datetime
+- collections.abc (Mapping)
+- mysql.connector
+- csv
+- serial
+- smbus
+- sys
+- qrcode
 
 # Hidden Code and Functions
 As a commercial product, a number of code sections have been removed to protect Bean Drop Ltd's product. The hidden sections are listed below along with links to operational demos of the hidden sections functionality.
 - Thermal Printer Receipt Printing
 - Encryption and new user account generation
 - Hardware status and database connection monitoring
-- Admin_functions.py has a significant number of functions removed as part of commercial security as they access the Bean Drop production database.
+- Connect_functions.py has a significant number of functions removed/hidden as part of commercial security as they access the Bean Drop production database.
 
 *Note: The Bean Drop 'Point of Sale Attachment' is not a True Point of Sale as it does not process any payments directly (card or cash), however it succurely updates user accounts in the Bean Drop database which contain 'cup deposits' 
 Bean Drop Point of Sale attachment software. Interactive GUI for café staff interacting with; rfid scanner, qr-code scanner, google cloud mysql database, thermal printer
