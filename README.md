@@ -64,3 +64,5 @@ As a commercial product, a number of code sections have been removed to protect 
 Bean Drop Point of Sale attachment software. Interactive GUI for café staff interacting with; rfid scanner, qr-code scanner, google cloud mysql database, thermal printer
 
 ![image](https://user-images.githubusercontent.com/60620955/204908875-0215ea21-6668-48ce-bd74-8fc0ddf2860a.png)
+![image](https://user-images.githubusercontent.com/60620955/204909218-170a4316-f956-424c-b03d-a8b5e58df7d7.png)
+
