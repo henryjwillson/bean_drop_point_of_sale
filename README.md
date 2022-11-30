@@ -1,6 +1,8 @@
 # Bean Drop Point of Sale
 The Bean Drop 'Point of Sale Attachment' is a hardware unit supplied to cafes operating in the Bean Drop community. It allows cafe staff to scan in Bean Drop Cups using an rfid scanner, link customer accounts using a qr-code scanner, print receipts using a thermal printer and links purchases to the main Bean Drop database based securely on the google cloud using SSL connections.
 
+![image](https://user-images.githubusercontent.com/60620955/204908626-ed72330b-2b30-44a7-bf83-a81d1da5b535.png)
+
 Full video demo's of operation can be found here:
 #
 This unit is running on a varient of Debian Linux. The hardware involved is a custom pcb board, a small single board computer, a thermal printer, a camera module and a rfid scanner module. 
@@ -60,3 +62,5 @@ As a commercial product, a number of code sections have been removed to protect 
 
 *Note: The Bean Drop 'Point of Sale Attachment' is not a True Point of Sale as it does not process any payments directly (card or cash), however it succurely updates user accounts in the Bean Drop database which contain 'cup deposits' 
 Bean Drop Point of Sale attachment software. Interactive GUI for café staff interacting with; rfid scanner, qr-code scanner, google cloud mysql database, thermal printer
+
+![image](https://user-images.githubusercontent.com/60620955/204908875-0215ea21-6668-48ce-bd74-8fc0ddf2860a.png)
