@@ -22,8 +22,6 @@ class rfid_scanner():
 			#print(self.rfid_status)
 			#time.sleep(0.1)
 			while self.scanning_status == True:
-				global global_dicitonary_numbers	#I believe this is one of my bodges...
-				
 				try:
 					value =  p1.stdout.readline()
 					print("Final decode is: ",value)
@@ -38,7 +36,6 @@ class rfid_scanner():
 						print("formatted rfid uid call...", rfid_uid[5:20])
 						formatted_rfid_uid = rfid_uid[5:20]
 						pipe.send(formatted_rfid_uid)
-						#decoded_rfid_queue.put(decoded_cup_RFID)			#currently this just updates the screen i believe
 				except Exception as error:
 					print(error)
 					pass
