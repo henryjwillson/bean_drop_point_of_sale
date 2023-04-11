@@ -24,16 +24,10 @@ class rfid_scanner():
 			while self.scanning_status == True:
 				try:
 					value =  p1.stdout.readline()
-					print("Final decode is: ",value)
-					print(value[10:17])
 					#print(p1.stdout.decode()) # capure_output=True takes the response normally returned to console and returns it to the variable instead. stdout = standard output # .decode() method passes result out as a string eg. print(p1.stdout.decode())
 					if value[10:17] == "NTAG213":
-						print("correct tag type is found...", value)
 						rfid_size = p1.stdout.readline()
 						rfid_uid = p1.stdout.readline()
-						print("first rfid size call...", rfid_size)
-						print("first rfid uid call...", rfid_uid)
-						print("formatted rfid uid call...", rfid_uid[5:20])
 						formatted_rfid_uid = rfid_uid[5:20]
 						pipe.send(formatted_rfid_uid)
 				except Exception as error:
